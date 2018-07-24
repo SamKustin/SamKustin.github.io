@@ -1,0 +1,197 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Samantha}\ \ \ \headerlastnamestyle{Kustin} \\
+	\vspace{2mm}
+	{\faEnvelope\ \headersocialstyle{skustin1@binghamton.edu}} | {\faPhone\ \headersocialstyle{(631) 704 - 1277}} | {\faLink\ \headersocialstyle{SamKustin.com}}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{B.S. in Computer Science}
+	{Binghamton University, State University of New York}
+	{Vestal, NY}
+	{May 2019 Expected}
+	{GPA: 3.62 | Upsilon Pi Epsilon Member}
+\end{cventries}
+\vspace{-2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Technical Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Technical Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Languages:  & \ \ \skill{{ Python, C++, C, Java, HTML, CSS}} \\
+		OS \& Software:  & \ \ \skill{{ MacOS, Linux, Windows, Git, Vim}} \\
+		Personal:  & \ \ \skill{{ Communication, organization, teamwork, leadership, critical thinking}} \\
+	\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+\vspace{-9mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Professional Experience}
+\begin{cventries}
+	\cventry
+    {Software Engineering Intern}
+	{UPS}
+	{Parsippany, NJ}
+	{June 2018 – Aug 2018}
+	{\begin{cvitems}
+		\item {Developed a progressive web app for the tracking system to increase user engagement and site reliability}
+		\item {Implemented and tested resiliency policies to improve fault tolerence and increase uptime using Java, C\#, and .NET}
+	\end{cvitems}}
+	\cventry
+	{Senior Residential Computer Consultant}
+	{Binghamton University Information Technology Services}
+	{Vestal, NY}
+	{April 2018 – Present}
+	{\begin{cvitems}
+		\item {Manages a team of 5 residential computer consultants to provide technical support to a community of 1500+ students}
+		\item {Trains 24 residential computer consultants in improving troubleshooting skills and working with the campus network}
+	\end{cvitems}}
+	\cventry
+	{Residential Computer Consultant}
+	{Binghamton University Information Technology Services}
+	{Vestal, NY}
+	{Aug 2016 – April 2018}
+	{\begin{cvitems}
+		\item {Resolves and troubleshoots technical problems for a building of 200+ students}
+		\item {Utilizes knowledge of computer networks, different operating systems and software, and how to remove malware to troubleshoot devices and maintain the campus network}
+	\end{cvitems}}
+	\cventry
+	{Course Assistant - CS 301: Ethical, Social, and Global Issues in Computing}
+	{Binghamton University Computer Science Department}
+	{Vestal, NY}
+	{Jan 2017 – May 2017}
+	{\begin{cvitems}
+		\item {Evaluated and provided constructive feedback on 20 students\textquotesingle{} essays and presentations}
+		\item {Documented weekly meeting agendas and minutes}
+	\end{cvitems}}
+\end{cventries}
+\vspace{-2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Leadership Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Leadership Experience}
+\begin{cventries}
+	\cventry
+    {President}
+	{Computers, Robotics, and Engineering Learning Community}
+	{Vestal, NY}
+	{Aug 2016 – Present}
+	{\begin{cvitems}
+		\item {Leads a 29 student living/learning community and contributes to executive board administration}
+		\item {Organizes 7+ events, facilitates weekly meetings, and documents meeting minutes and attendance}
+        \item {Mentors underclassmen and advises them about technical concepts, skills, and school work}
+	\end{cvitems}}
+    \cventry
+    {Member}
+	{Women in Technology}
+	{Vestal, NY}
+	{Jan 2016 – Present}
+	{\begin{cvitems}
+		\item {Teaches coding concepts to local middle/high school girls and advises them on STEM careers}
+	\end{cvitems}}
+    \cventry
+    {Member}
+	{HackBU}
+	{Vestal, NY}
+	{Sept 2015 – Present}
+	{\begin{cvitems}
+		\item {Participates in hackathons hosted by HackBU and attends weekly coding workshops}
+	\end{cvitems}}
+\end{cventries}
+\vspace{-2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Projects}
+\begin{cventries}
+    \cventry
+    {}
+    {r/ bot}
+    {Python}
+    {Feb 2016}
+    {\begin{cvitems}
+        \vspace{-4mm}
+        \item {Developed a Twitter bot which reads Reddit posts and uploads them to Twitter every 20 minutes}
+        \item {Created a Python script to scrape JSON data from Reddit, parse relevant information, and then repost it to Twitter}
+    \end{cvitems}}
+    \vspace{-2mm}
+
+	\cventry
+    {}
+    {Super Princess Peach}
+    {Python}
+    {Dec 2015}
+    {\begin{cvitems}
+        \vspace{-4mm}
+		\item {Developed a Python game which connects the games Brick Breaker, Simon, and Snake with story and mini game modes}
+		\item {Led a team of 4 others to efficiently design the algorithms and logic for the game}
+        \item {Personally developed the graphical user interface and integrated it with the logic for the game}
+    \end{cvitems}}
+	\vspace{-2mm}
+\end{cventries}
+\vspace{-10mm}
+
+\end{document}
